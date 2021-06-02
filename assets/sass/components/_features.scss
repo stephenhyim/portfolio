@@ -36,6 +36,10 @@
 			text-decoration: none;
 		}
 
+		a:hover {
+			color: #ffffff;
+		}
+
 		@include breakpoint('<=medium') {
 			li {
 				width: calc(#{(100% / 2)} - #{_size(element-margin)});
