@@ -32,6 +32,10 @@
 			}
 		}
 
+		a {
+			text-decoration: none;
+		}
+
 		@include breakpoint('<=medium') {
 			li {
 				width: calc(#{(100% / 2)} - #{_size(element-margin)});
