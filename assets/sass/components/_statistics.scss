@@ -20,7 +20,7 @@
 			padding: 1.5em;
 			color: _palette(fg-bold);
 			text-align: center;
-			height: 23vh;
+			// height: 23vh;
 
 			&.style1 {
 				background-color: _palette(accent1);
@@ -42,21 +42,6 @@
 				background-color: _palette(accent5);
 			}
 
-			.style6 {
-				background: yellow;
-			}
-
-			.style7 {
-				background: yellow;
-			}
-
-			.style8 {
-				background: yellow;
-			}
-
-			.style9 {
-				background: yellow;
-			}
 
 			strong, b, p {
 				display: block;
@@ -139,3 +124,15 @@
 			}
 		}
 	}
+
+	// .style7 {
+	// 	background: yellow;
+	// }
+
+	// .style8 {
+	// 	background: yellow;
+	// }
+
+	// .style9 {
+	// 	background: yellow;
+	// }
