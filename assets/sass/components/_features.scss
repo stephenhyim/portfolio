@@ -40,6 +40,10 @@
 			color: #ffffff;
 		}
 
+		.education {
+			margin-top: 22px;
+		}
+
 		@include breakpoint('<=medium') {
 			li {
 				width: calc(#{(100% / 2)} - #{_size(element-margin)});
