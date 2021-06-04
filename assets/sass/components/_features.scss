@@ -40,9 +40,7 @@
 			color: #ffffff;
 		}
 
-		#education {
-			margin-top: 22px;
-		}
+		
 
 		@include breakpoint('<=medium') {
 			li {
@@ -69,4 +67,8 @@
 				}
 			}
 		}
+	}
+
+	#education {
+		margin-top: 22px;
 	}
